@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Mart</title>
+  <link rel="stylesheet" href="/style.css" />
+  <!-- <script src="./script.js"></script> -->
+  <style></style>
+</head>
+
+<body>
+  <header>
+    
+    <nav>
+      <div class="logo">
+        <a href="#">
+          <img src="/images/logo.png" alt="LOGO" />
+        </a>
+      </div>
+
+      <div class="bar">
+        <select name="allcategories" id="001">
+          <option value="default">All Categories</option>
+          <option value="fruits">Fruits</option>
+          <option value="vegetables">Vegetables</option>
+          <option value="dairy">Dairy</option>
+          <option value="beverages">Beverages</option>
+        </select>
+        <input type="text" placeholder="Search more than 20,000 products" aria-label="Search for products" />
+        <button type="submit" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <div class="functional">
+        <div class="support">
+          <p>For Support</p>
+          <a href="tel:(+980)(34984089)">+98034984089</a>
+        </div>
+        <div class="usermenu">
+          <a href="#"> <ion-icon name="person-outline"></ion-icon></a>
+        </div>
+        <div class="favourites">
+          <a href="#"><ion-icon name="heart-outline"></ion-icon></a>
+        </div>
+        <div class="userbalance">
+          <h5>Your Cart</h5>
+          <p>$1,290.00</p>
+        </div>
+      </div>
+    </nav>
+    <div class="variety">
+      <select name="departmants" id="002">
+        <option value="default">Shop by Departmants</option>
+        <option value="Nill">Departmants</option>
+        <option value="Nill">Departmants</option>
+        <option value="Nill">Departmants</option>
+        <option value="Nill">Departmants</option>
+        <option value="Nill">Departmants</option>
+      </select>
+      <ul>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Kids</a></li>
+        <li><a href="#">Brand</a></li>
+        <li><a href="#">Sale</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Brand</a></li>
+        <li>
+          <select name="" id="">
+            <option value="">Pages</option>
+          </select>
+        </li>
+      </ul>
+    </div>
+  </header>
+<main id="results-container" style="padding: 20px; display: flex; flex-wrap: wrap; gap: 20px;"></main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <footer>
+    <div class="parts">
+      <div class="part jj jk">
+        <img src="/images/logo.png" alt="">
+        <div class="social">
+          <a href="#"> <ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"> <ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#"> <ion-icon name="logo-youtube"></ion-icon></a>
+          <a href="#"> <ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="#"> <ion-icon name="logo-amazon"></ion-icon></a>
+        </div>
+      </div>
+      <div class="part">
+        <div class="heading">
+          <h4>Ultras</h4>
+        </div>
+        <div class="links">
+          <a href="#">About us</a>
+          <a href="#">Conditions</a>
+          <a href="#">Our Journals</a>
+          <a href="#">Careers</a>
+          <a href="#">Affiliate Programme</a>
+          <a href="#">Ultras Press</a>
+        </div>
+      </div>
+      <div class="part">
+        <div class="heading">
+          <h4>Customer Services</h4>
+        </div>
+        <div class="links">
+          <a href="#">FAQ</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Returns & Refunds</a>
+          <a href="#">Cookie Guidelines</a>
+          <a href="#">Delivery Information</a>
+        </div>
+      </div>
+      <div class="part">
+        <div class="heading">
+          <h4>Customer Services</h4>
+        </div>
+        <div class="links">
+          <a href="#">FAQ</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Returns & Refunds</a>
+          <a href="#">Cookie Guidelines</a>
+          <a href="#">Delivery Information</a>
+        </div>
+      </div>
+      <div class="part jk">
+        <div class="heading">
+          <h4>Subscribe Us </h4>
+        </div>
+        <div class="body">
+          <p>Subscribe to our newsletter to get updates about our grand offers.</p>
+          <div class="baar">
+            <input type="email" placeholder="Email Address" required>
+            <button type="submit">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <section>
+    <div class="copyright-section">
+      <p>© 2023 Foodmart. All rights reserved.</p>
+      <p>Test Template by <span><a href="https://m.anaslatif.com">M Anas Latif</a>
+        </span></p>
+    </div>
+  </section>
+<script>
+    const query = localStorage.getItem("searchQuery") || "";
+    const category = localStorage.getItem("searchCategory") || "default";
+
+    const container = document.getElementById("results-container");
+
+    const matched = allProducts.filter(product => {
+      const nameMatch = product.name.toLowerCase().includes(query);
+      const categoryMatch = category === "default" || product.category === category;
+      return nameMatch && categoryMatch;
+    });
+
+    if (matched.length === 0) {
+      container.innerHTML = "<p>No matching products found.</p>";
+    } else {
+      matched.forEach(product => {
+        const card = document.createElement("div");
+        card.classList.add("product-card");
+        card.style.border = "1px solid #ddd";
+        card.style.padding = "16px";
+        card.style.width = "250px";
+
+        card.innerHTML = `
+          <div class="image-sec">
+            <img src="${product.image}" alt="${product.name}" style="width:100%;">
+          </div>
+          <div class="product-card-details">
+            <h4>${product.name}</h4>
+            <p class="price">${product.price}</p>
+            <a href="#">Add to cart</a>
+          </div>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+  </script>
+  <script  src="/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
