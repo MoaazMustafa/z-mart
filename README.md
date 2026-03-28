@@ -1,15 +1,18 @@
-<!-- README-AI-SIGNATURE:371d1bb4a332286a -->
+<!-- README-AI-SIGNATURE:20260328001933 -->
 # z-mart
 
 Welcome to the z-mart repository! This project is a web-based application designed to provide a seamless online shopping experience for food products. Built primarily with HTML, it showcases a variety of features aimed at enhancing user engagement and accessibility.
 
 ![z-mart Logo](images/logo.png)
 
+## Tech Badges
+![HTML](https://img.shields.io/badge/HTML-5-orange.svg)
+
 ## ✨ Key Features
 
 ### 🛒 User-Friendly Interface
 - Intuitive navigation for easy product discovery.
-- Responsive design ensuring compatibility across devices.
+- Responsive design for optimal viewing on various devices.
 
 ### 📦 Diverse Product Range
 - A wide selection of food items including fruits, vegetables, and beverages.
@@ -20,7 +23,6 @@ Welcome to the z-mart repository! This project is a web-based application design
 - Easy access to download options for both Android and iOS.
 
 ## 🏗️ Project Structure
-
 ```
 z-mart/
 ├── FoodMart.png
@@ -91,17 +93,16 @@ open index.html
 
 ## 📜 Scripts
 
-The project includes a JavaScript file for interactivity. You can run the following command to start a local server for testing:
+The project includes a JavaScript file for interactivity. You can run the following command to check for any issues:
 
 ```bash
-# If you have Python installed
-python -m http.server
+# No specific scripts available, but ensure to check script.js for functionality
 ```
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request. Ensure that your code adheres to the project's coding standards.
+Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request. 
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for more details.
