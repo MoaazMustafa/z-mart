@@ -1,4 +1,4 @@
-<!-- README-AI-SIGNATURE:20260329025447 -->
+<!-- README-AI-SIGNATURE:20260330025520 -->
 # z-mart
 
 Welcome to the z-mart repository! This project is a web-based application designed to provide a seamless online shopping experience for food products. Built primarily with HTML, it showcases a variety of features aimed at enhancing user engagement and accessibility.
@@ -95,16 +95,17 @@ open index.html
 
 ## 📜 Scripts
 
-This project includes a JavaScript file for interactivity and a CSS file for styling. You can modify `script.js` and `style.css` as needed to enhance functionality and design.
+This project includes a JavaScript file for interactivity. You can run the following command to start a local server for testing:
 
 ```bash
-# To run the project, simply open the index.html file in a web browser.
+# If you have Python installed
+python -m http.server
 ```
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request. Ensure to follow the project's coding standards and guidelines.
+Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request. 
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
