@@ -1,4 +1,4 @@
-<!-- README-AI-SIGNATURE:20260330025520 -->
+<!-- README-AI-SIGNATURE:20260331025028 -->
 # z-mart
 
 Welcome to the z-mart repository! This project is a web-based application designed to provide a seamless online shopping experience for food products. Built primarily with HTML, it showcases a variety of features aimed at enhancing user engagement and accessibility.
@@ -18,10 +18,6 @@ Welcome to the z-mart repository! This project is a web-based application design
 ### 📱 Mobile Compatibility
 - Optimized for mobile devices with dedicated app store links.
 - Easy access to download options for both Android and iOS.
-
-### 🎨 Attractive Visuals
-- Engaging background patterns and promotional images to enhance user experience.
-- High-quality images for all products and advertisements.
 
 ## 🏗️ Project Structure
 
@@ -76,7 +72,8 @@ z-mart/
 │   ├── thumb-milk.png
 │   ├── thumb-orange-juice.png
 │   ├── thumb-raspberries.png
-│   └── thumb-tomatoes.png
+│   ├── thumb-tomatoes.png
+│   └── thumb-tomatoketchup.png
 ├── index.html
 ├── results.html
 ├── script.js
@@ -95,17 +92,16 @@ open index.html
 
 ## 📜 Scripts
 
-This project includes a JavaScript file for interactivity. You can run the following command to start a local server for testing:
+The project includes a JavaScript file for interactivity. You can run the following command to check for any issues:
 
 ```bash
-# If you have Python installed
-python -m http.server
+# No specific scripts available, but ensure to check script.js for functionality.
 ```
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request. 
+Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request.
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for more details.
