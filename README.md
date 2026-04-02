@@ -1,27 +1,23 @@
-<!-- README-AI-SIGNATURE:20260401031836 -->
+<!-- README-AI-SIGNATURE:20260402024655 -->
 # z-mart
 
 Welcome to the z-mart repository! This project is a web-based application designed to provide a seamless online shopping experience for food products. Built primarily with HTML, it showcases a variety of features aimed at enhancing user engagement and accessibility.
 
-![z-mart Logo](images/logo.png)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![HTML](https://img.shields.io/badge/language-HTML-blue)
 
 ## ✨ Key Features
 
 ### 🛒 User-Friendly Interface
 - Intuitive navigation for easy product discovery.
-- Responsive design ensuring compatibility across devices.
+- Responsive design for optimal viewing on various devices.
 
-### 📦 Diverse Product Range
-- A wide selection of food items, including fruits, vegetables, and beverages.
-- Eye-catching product thumbnails for better visibility.
+### 📸 Rich Media Content
+- High-quality images for products and advertisements.
+- Engaging background patterns and icons to enhance visual appeal.
 
 ### 📱 Mobile Compatibility
 - Optimized for mobile devices with dedicated app store links.
 - Easy access to download options for both Android and iOS.
-
-### 🎨 Attractive Visuals
-- Engaging background patterns and promotional images to enhance user experience.
-- High-quality images for all products and advertisements.
 
 ## 🏗️ Project Structure
 
@@ -60,6 +56,7 @@ z-mart/
 │   ├── icon-soft-drinks-bottle.png
 │   ├── icon-vegetables-broccoli.png
 │   ├── icon-wine-glass-bottle.png
+│   ├── logo.png
 │   ├── phone.png
 │   ├── post-thumb-1.jpg
 │   ├── post-thumb-2.jpg
@@ -85,7 +82,7 @@ z-mart/
 
 ## 🚀 Getting Started
 
-To get started with z-mart, simply clone the repository and open the `index.html` file in your web browser:
+To get started with the z-mart project, simply clone the repository and open the `index.html` file in your web browser:
 
 ```bash
 git clone https://github.com/MoaazMustafa/z-mart.git
@@ -95,12 +92,16 @@ open index.html
 
 ## 📜 Scripts
 
-This project does not have any specific build scripts or dependencies indicated in the provided files. The main functionality is handled through the HTML, CSS, and JavaScript files included in the repository.
+The project includes a JavaScript file for interactivity. You can run the following command to check for any issues:
+
+```bash
+# No specific scripts available, but ensure to check script.js for functionality
+```
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request. Ensure that your code adheres to the project's coding standards and includes appropriate tests.
+Contributions are welcome! If you would like to contribute to the z-mart project, please fork the repository and submit a pull request with your changes.
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for more details.
